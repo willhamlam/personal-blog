@@ -1,1 +1,67 @@
 @import "color.styl"
+
+header 
+	padding 20px 30px
+
+.wrap.hp
+	width 760px
+
+.hp-block
+	padding 50px 0
+	border-top 5px solid white
+
+.social-slide-list {
+	display: block;
+	margin: 0 auto;
+	width: 816px;
+	padding: 100px 0;
+}
+
+.social-slide-item {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 5px;
+	-webkit-transition: 0.2s all ease-out;
+	display: inline-block;
+	margin: 0 30px;
+}
+
+.page-title {
+	font-family: "Merriweather";
+	font-weight: 200;
+	color: #d1d1d1;
+	text-align: center;
+	margin-top: 300px;
+}
+
+.social-icon {
+	position: absolute;
+	top: 0;
+	-webkit-transition: 0.1s all ease-out;
+}
+
+.social-slide-item.dribbble:hover {
+	background-color: #E54783;
+}
+
+.social-slide-item.twitter:hover {
+	background-color: #52A2C6;
+}
+
+.social-slide-item.rdio:hover {
+	background-color: #1689CA;
+}
+
+.social-slide-item.insta:hover {
+	background-color: #8EB879;
+}
+
+.social-slide-item.pinter:hover {
+	background-color: #EE4444;
+}
+
+.social-slide-item:hover .social-icon {
+	top: -100px;
+}
